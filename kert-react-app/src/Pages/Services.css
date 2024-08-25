@@ -54,15 +54,25 @@
     background: linear-gradient(to top, #0064ab, #4aaffc, #70a4cd)
 }
 
+.sajatMargin{
+    margin-left: 3vw;
+}
+
+@media (max-width: 772px) {
+    .sajatMargin{
+        margin-left: 0px;
+    }
+}
+
 .fontSizeCard{
     font-size: 1.5vw;
-  }
+}
   
-  @media (max-width: 772px) {
+@media (max-width: 772px) {
     .fontSizeCard{
-      font-size: 2.5vw;
+        font-size: 2.5vw;
     }
-  }
+}
 
 .minFontSize{
     font-size: 1vw;
@@ -70,8 +80,18 @@
 
 @media(max-width: 998px) {
     .minFontSize{
-        font-size: 7px;
-        line-height: 8px;
+        font-size: 8.5px;
+        line-height: 10px;
+    }
+}
+
+.egyediKep{
+    height: 100%;
+}
+
+@media(max-width: 998px) {
+    .egyediKep{
+        height: 100%;
     }
 }
 
@@ -81,7 +101,7 @@
 
 @media(max-width: 998px) {
     .minFontSize2{
-        font-size: 7px;
+        font-size: 8px;
         line-height: 8px;
     }
 }
@@ -121,7 +141,7 @@
 
 @media(max-width: 998px) {
     .iconsFontSize{
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 }
 
@@ -179,23 +199,3 @@
 }
 
 
-
-.ownMarginLeft{
-
-}
-
-@media (max-width: 772px) {
-    .ownMarginLeft{
-        margin-right: -3vw;
-    }
-}
-
-.ownMarginLeft2{
-
-}
-
-@media (max-width: 772px) {
-    .ownMarginLeft2{
-        margin-right: 10vw;
-    }
-}

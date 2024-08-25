@@ -76,7 +76,7 @@ function Services() {
         </Container>
       </Navbar>
 
-    <Container  className='d-flex justify-content-center servicesBorder backgroundPaper' style={{marginTop:'5vw', width: '87%', boxShadow: '15px 10px 30px rgba(0, 0, 0, 1)', paddingBottom: 30}}>   
+    <Container  className='d-flex justify-content-center servicesBorder backgroundPaper' style={{marginTop:'5vw', width: '92%', boxShadow: '15px 10px 30px rgba(0, 0, 0, 1)', paddingBottom: 30}}>   
   
         <Col xs={11} md={8} lg={8}>
               <Col xs={12} md={12} lg={12}>
@@ -85,7 +85,6 @@ function Services() {
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{ color: 'white'}} className='text-center minFontSize'>
                           Kertépítészeti cégünk több éves tapasztalattal rendelkezik a zöldterületek tervezése és kivitelezése terén.
-                          Célunk, hogy egyedi, esztétikus és funkcionális kerteket hozzunk létre ügyfeleink számára.
                         </Card.Text>
                       </Col> 
                       <Col xs={6} md={6} lg={6}>
@@ -127,7 +126,7 @@ function Services() {
                       </Col> 
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{color: 'white'}} className='text-center minFontSize'>
-                         <i><b> Szakértelem:</b></i> Csapatunk magasan képzett és tapasztalt szakemberekből áll, akik naprakészek a legújabb kertépítési technikák és trendek terén, így biztosítva a legjobb minőségű munkát.
+                         <i><b> Szakértelem:</b></i> Csapatunk magasan képzett és tapasztalt szakemberekből áll, akik naprakészek a legújabb kertépítési technikák és trendek terén.
                         </Card.Text>
                       </Col> 
                     </Row> 
@@ -140,7 +139,7 @@ function Services() {
                     <Row>
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{ color: 'white'}} className='text-center minFontSize'>
-                        <i><b>Tervezés:</b></i>  Részletes és kreatív tervezési folyamatunk biztosítja, hogy minden projektünk egyedi és az ügyfelek igényeihez teljes mértékben igazodó legyen. látványterveink segítenek elképzelni a végeredményt még a munkálatok megkezdése előtt.                        
+                        <i><b>Tervezés:</b></i>  Részletes és kreatív tervezési folyamatunk biztosítja, hogy minden projektünk egyedi és az ügyfelek igényeihez teljes mértékben igazodó legyen.                        
                         </Card.Text>
                       </Col> 
                       <Col xs={6} md={6} lg={6}>
@@ -158,7 +157,7 @@ function Services() {
                       </Col> 
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{ color: 'white'}} className='text-center minFontSize'>
-                        <i><b>Kivitelezés:</b></i> Elejétől a végéig átfogó szolgáltatást nyújtunk, amely magában foglalja a tereprendezést, növényültetést, öntözőrendszerek telepítését és kerti utak építését is. Minden munkafázist saját kezűleg végzünk, így garantálva a kiváló minőséget.                        
+                        <i><b>Kivitelezés:</b></i> Elejétől a végéig átfogó szolgáltatást nyújtunk, amely magában foglalja a tereprendezést, növényültetést, öntözőrendszerek telepítését és kerti utak építését is.                         
                         </Card.Text>
                       </Col> 
                     </Row> 
@@ -170,11 +169,11 @@ function Services() {
                     <Row>
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{ color: 'white'}} className='text-center minFontSize'>
-                        <i><b>Karbantartás:</b></i> Az elkészült kertek hosszú távú szépségéért és egészségéért karbantartási szolgáltatásainkat is igénybe vehetik ügyfeleink. Rendszeres gondozás, metszés, trágyázás és öntözőrendszer karbantartás tartozik szolgáltatásaink közé.                        
+                        <i><b>Karbantartás:</b></i> Karbantartási szolgáltatásainkat is igénybe vehetik ügyfeleink. Rendszeres gondozás, metszés, trágyázás és öntözőrendszer karbantartás tartozik szolgáltatásaink közé.                        
                         </Card.Text>
                         </Col> 
                       <Col xs={6} md={6} lg={6}>
-                        <img className='img-fluid szolgRight' src='Karbantartas.png'/>                 
+                        <img className='img-fluid szolgRight egyediKep' src='Karbantartas.png'/>                 
                       </Col> 
                     </Row> 
                   </Card>
@@ -188,7 +187,7 @@ function Services() {
                       </Col> 
                       <Col xs={6} md={6} lg={6} className='d-flex align-items-center justify-content-center'>
                         <Card.Text style={{ color: 'white'}} className='text-center minFontSize'>
-                        <i><b>Ügyfélközpontúság:</b></i> Munkánk során kiemelt figyelmet fordítunk az ügyfeleink elégedettségére. Minden projektet az ügyféllel szoros együttműködésben végzünk, az ő igényeik és elképzeléseik figyelembevételével.                          
+                        <i><b>Ügyfélközpontúság:</b></i> Munkánk során kiemelt figyelmet fordítunk az ügyfeleink elégedettségére. Minden projektet az ügyféllel szoros együttműködésben végzünk.                          
                         </Card.Text>
                       </Col> 
                     </Row> 
@@ -196,7 +195,7 @@ function Services() {
               </Col>
         </Col>
 
-        <Col xs={3} md={2} lg={2} style={{marginLeft: '3vw'}}> 
+        <Col xs={3} md={2} lg={2} className='sajatMargin'> 
             <Col>
               <Card className='text-center align-items-center szinAtmenet3' style={{border: 'none'}}>
                 <TbRulerMeasure style={{width: '3vw', height: '3vw', marginTop: '5vw'}}/>
@@ -274,7 +273,7 @@ function Services() {
 
     <Container fluid >
         <Row style={{marginTop: '5vw', textAlign: 'ceneter', justifyContent: 'center'}}>
-        <Col xs={2} md={2} lg={2} className='text-center fontSizeCard ownMarginLeft2'>
+        <Col xs={3} md={2} lg={2} className='text-center fontSizeCard'>
           <p style={{
             
             fontWeight: 'normal', 
@@ -300,19 +299,7 @@ function Services() {
           }}>Gyepszőnyeg</p>
           </Col>
 
-          <Col xs={3} md={2} lg={2} className='text-center fontSizeCard '>
-            <p style={{
-            
-            fontWeight: 'normal', 
-            color: 'bisque', 
-            textShadow: '1px 1px 2px rgba(0, 0, 0, 1)', 
-            letterSpacing: '0.2vw', 
-            fontFamily: '"Times New Roman", "Garamond", "Georgia", serif',
-            fontStyle: 'italic'
-          }}>Kerti tó</p>
-          </Col>
-
-          <Col xs={3} md={2} lg={2} className='text-center fontSizeCard ownMarginLeft'>
+          <Col xs={3} md={2} lg={2} className='text-center fontSizeCard'>
             <p style={{
             
             fontWeight: 'normal', 
@@ -338,7 +325,7 @@ function Services() {
         </Row>
       </Container>
 
-    <Container fluid className='card-stack'>
+    <Container fluid  >
         <Row style={{textAlign: 'center', justifyContent: 'center'}}>
           <Col xs={3} md={2} lg={2}>
             <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column'}}>
@@ -356,12 +343,6 @@ function Services() {
 
           <Col xs={3} md={2} lg={2}>
             <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
-              <img className='img-fluid' src='ToReklam.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            </Card>
-          </Col>
-
-          <Col xs={3} md={2} lg={2}>
-            <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
               <img className='img-fluid' src='KertReklam.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </Card>
           </Col>
@@ -374,34 +355,30 @@ function Services() {
         </Row>
       </Container>
 
-      <Container style={{marginTop: '-3vw'}}>
-        <Row>
-          <Col xs={3} md={2} lg={3}>
+      <Container fluid style={{marginTop: '-3vw'}}>
+        <Row style={{textAlign: 'center', justifyContent: 'center'}}>
+          <Col xs={3} md={3} lg={2}>
             <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
               <img className='img-fluid' src='TervReklam.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </Card>
           </Col>
 
-          <Col xs={3} md={2} lg={3}>
+          <Col xs={3} md={3} lg={2}>
             <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
               <img className='img-fluid' src='Karbantartas.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </Card>
           </Col>
 
-          <Col xs={3} md={2} lg={3}>
-            <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
-              <img className='img-fluid' src='Szaktanacsadas.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            </Card>
-          </Col>
-
-          <Col xs={3} md={2} lg={3}>
+          <Col xs={3} md={3} lg={2}>
             <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
               <img className='img-fluid' src='Foldmunka.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </Card>
           </Col>
+          
+
+          
         </Row>
       </Container>
-
       
       <SlidingPane
         className="backgroundColor"
@@ -550,9 +527,66 @@ function Services() {
             letterSpacing: '0.2vw', 
             fontFamily: '"Times New Roman", "Garamond", "Georgia", serif',
             fontStyle: 'italic'
-          }}>Szaktanácsadás</p>
+          }}>Tereprendezés és földmunka</p>
           </Col>
 
+          
+        </Row>
+      </Container>
+      
+      
+      <Container fluid>
+        <Row style={{textAlign: 'center', justifyContent: 'center'}}>
+          <Col xs={3} md={3} lg={2}>
+              <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
+                <img className='img-fluid' src='ToReklam.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </Card>
+          </Col>
+
+          <Col xs={3} md={3} lg={2}>
+            <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
+              <img className='img-fluid' src='Szaktanacsadas.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            </Card>
+          </Col>
+          
+          <Col xs={3} md={3} lg={2}>
+            <Card onClick={() => setState({ isPaneOpen: true })} className='szinReklamAtmenet2 card-hover' style={{boxShadow: '20px 10px 30px rgba(0, 0, 0, 1)', height: '23vw', display: 'flex', flexDirection: 'column' }}>
+              <img className='img-fluid' src='Napelempark.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container fluid>
+        <Row style={{marginTop: '2vw', textAlign: 'ceneter', justifyContent: 'center'}}>
+        <Col xs={3} md={2} lg={2} className='text-center fontSizeCard'>
+          <p style={{
+            
+            fontWeight: 'normal', 
+            color: 'bisque', 
+            textShadow: '1px 1px 2px rgba(0, 0, 0, 1)', 
+            letterSpacing: '0.2vw', 
+            fontFamily: '"Times New Roman", "Garamond", "Georgia", serif',
+            fontStyle: 'italic'
+          }}>
+            Kerti tó
+          </p>
+        </Col>
+
+          <Col xs={3} md={2} lg={2} className='text-center fontSizeCard'>
+            <p style={{
+             
+            fontWeight: 'normal', 
+            color: 'bisque', 
+            textShadow: '1px 1px 2px rgba(0, 0, 0, 1)', 
+            letterSpacing: '0.2vw', 
+            fontFamily: '"Times New Roman", "Garamond", "Georgia", serif',
+            fontStyle: 'italic'
+          }}>
+            Szaktanácsadás
+            </p>
+          </Col>
+ 
           <Col xs={3} md={2} lg={2} className='text-center fontSizeCard'>
             <p style={{
             
@@ -562,12 +596,12 @@ function Services() {
             letterSpacing: '0.2vw', 
             fontFamily: '"Times New Roman", "Garamond", "Georgia", serif',
             fontStyle: 'italic'
-          }}>Földmunka és tereprendezés</p>
+          }}>Ipari parkok és napelemparkok</p>
           </Col>
+
+          
         </Row>
       </Container>
-      
-
       
     
     <footer className="footer" style={{color: 'bisque', backgroundColor: '#333333', marginTop: '40%'}}>
